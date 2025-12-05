@@ -1,0 +1,6 @@
+META:
+  -
+    path: '/your/path/to/data.jsonl'
+    type: 'image_text'
+
+
