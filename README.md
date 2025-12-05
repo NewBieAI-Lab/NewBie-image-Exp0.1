@@ -1,20 +1,3 @@
----
-license: apache-2.0
-language:
-- en
-pipeline_tag: text-to-image
-library_name: diffusers
-tags:
-- next-dit
-- text-to-image
-- transformer
-- image-generation
-- Anime
-base_model:
-- NewBie-AI/NewBie-image-Exp0.1
----
-
-
 <h1 align="center">NewBie image Exp0.1<br><sub><sup>Efficient Image Generation Base Model Based on Next-DiT</sup></sub></h1>
 
 <div align="center">
@@ -32,8 +15,8 @@ base_model:
 Building on these insights, it adopts Next-DiT as the foundation to design a new NewBie architecture tailored for text-to-image generation.
 The *NewBie image Exp0.1* model is trained within this newly constructed system, representing the first experimental release of the NewBie text-to-image generation framework.
 #### Text Encoder
-We use Gemma3-4B-it as the primary text encoder (conditioning on its second-to-last layer token embeddings), and extract Jina CLIP v2 pooled text features that are projected and fused into the model conditioning path. (into the time/AdaLN conditioning pathway).
-Benefiting from Gemma3-4B-it and Jina CLIP v2, NewBie image Exp0.1 achieves strong prompt understanding and instruction-following capability.
+We use Gemma3-4B-it as the primary text encoder, conditioning on its penultimate-layer token hidden states. We also extract pooled text features from Jina CLIP v2, project them, and fuse them into the time/AdaLN conditioning pathway.
+Together, Gemma3-4B-it and Jina CLIP v2 provide strong prompt understanding and improved instruction adherence.
 #### VAE
 Use the FLUX.1-dev 16channel VAE to encode images into latents, delivering richer, smoother color rendering and finer texture detail helping safeguard the stunning visual quality of NewBie image Exp0.1.
 
