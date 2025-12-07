@@ -1,20 +1,3 @@
----
-license: other
-license_name: newbie-nc-1.0
-license_link: LICENSE.md
-language:
-- en
-pipeline_tag: text-to-image
-library_name: diffusers
-tags:
-- next-dit
-- text-to-image
-- transformer
-- image-generation
-- Anime
----
-
-
 <h1 align="center">NewBie image Exp0.1<br><sub><sup>Efficient Image Generation Base Model Based on Next-DiT</sup></sub></h1>
 
 <div align="center">
