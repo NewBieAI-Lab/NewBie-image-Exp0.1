@@ -24,7 +24,7 @@ Use the FLUX.1-dev 16channel VAE to encode images into latents, delivering riche
 <div align="center">
   
 **NewBie image Exp0.1** is pretrain on a large corpus of high-quality anime data, enabling the model to generate remarkably detailed and visually striking anime style images.
-![NewBie image preview](https://huggingface.co/NewBie-AI/NewBie-image-Exp0.1/resolve/main/image/newbie_image.png)
+![newbie_image](https://github.com/user-attachments/assets/3fa7a3cf-ac65-4955-8df7-73c47bc7d093)
 We reformatted the dataset text into an **XML structured format** for our experiments. Empirically, this improved attention binding and attribute/element disentanglement, and also led to faster convergence.
 
 Besides that, It also supports natural language and tags inputs.
