@@ -168,11 +168,6 @@ if __name__ == "__main__":
 - [解构原典](https://pd.qq.com/s/a79to55q6)
 - [ChatGroup](https://qm.qq.com/q/qnHFwN9fSE)
 
-## ☕ Support
-- If you find our work helpful, please consider buying us a coffee!
-- Your support will be invested in new project development to bring better works to everyone.
-- 👉 [[Afdian](https://afdian.com/a/Anlia5875)]
-
 ## 📜 License
 **Model Weights:** Newbie Non-Commercial Community License (Newbie-NC-1.0).  
 - Applies to: model weights/parameters/configs and derivatives (fine-tunes, LoRA, merges, quantized variants, etc.)
